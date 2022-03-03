@@ -1,5 +1,5 @@
 # XROMM-Visualisation
-Matlab code and app for visualising data from XROMM system, that has been processed using XMALab and Autoscoper. Optional visualisation of motion capture markers if co-registration transformation between x-ray and mocap systems is available. 
+Matlab code and app for visualising data from XROMM system (https://www.xromm.org/), that has been processed using XMALab and Autoscoper. Optional visualisation of motion capture markers if co-registration transformation between x-ray and mocap systems is available. 
 
 ![alt text](https://github.com/glichtwark/XROMM-Visualisation/blob/main/application_screenshot.JPG)
 
@@ -11,4 +11,16 @@ Notes:
 
 Uses BTKToolkit for loading C3D files (will need to be installed and on path for working with app source code) - http://biomechanical-toolkit.github.io/docs/Wrapping/Matlab/_tutorial.html
 
-Code developed by Dr Jayishni Maharaj in collaboration with Dr Glen Lichtwark
+Original code developed by Dr Jayishni Maharaj in collaboration with Dr Glen Lichtwark for the following paper - 
+
+Maharaj, J. N., Rainbow, M. J., Cresswell, A. G., Kessler, S., Konow, N., Gehring, D., & Lichtwark, G. A. (2021). Modelling the complexity of the foot and ankle during human locomotion: the development and validation of a multi-segment foot model using biplanar videoradiography. Computer Methods in Biomechanics and Biomedical Engineering, 1-12.
+
+Other relevant scientific literature - 
+
+Maharaj, J. N., Kessler, S., Rainbow, M. J., D’Andrea, S. E., Konow, N., Kelly, L. A., & Lichtwark, G. A. (2020). The reliability of foot and ankle bone and joint kinematics measured with biplanar videoradiography and manual scientific rotoscoping. Frontiers in Bioengineering and Biotechnology, 8, 106.
+
+Kessler, S. E., Rainbow, M. J., Lichtwark, G. A., Cresswell, A. G., D'Andrea, S. E., Konow, N., & Kelly, L. A. (2019). A direct comparison of biplanar videoradiography and optical motion capture for foot and ankle kinematics. Frontiers in bioengineering and biotechnology, 199.
+
+Welte, L., Kelly, L. A., Kessler, S. E., Lieberman, D. E., D'Andrea, S. E., Lichtwark, G. A., & Rainbow, M. J. (2021). The extensibility of the plantar fascia influences the windlass mechanism during human running. Proceedings of the Royal Society B, 288(1943), 20202095.
+
+Also 
