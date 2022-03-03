@@ -1,0 +1,113 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3520793680" file="C:\Users\uqglicht_local\Dropbox (UQ)\XROMM Data Drop\Matlab Functions\xromm_visualisation.prj" location="C:\Users\uqglicht_local\Dropbox (UQ)\XROMM Data Drop\Matlab Functions" name="xromm_visualisation" target="target.mlapps" target-name="Package App">
+    <param.appname>xromm_visualisation</param.appname>
+    <param.authnamewatermark>Glen Lichtwark and Jayishni Maharaj</param.authnamewatermark>
+    <param.email>g.lichtwark@uq.edu.au</param.email>
+    <param.company>UQ</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space.</param.summary>
+    <param.description>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space. Can also load motion capture data and visualise this if there is a registration transformation matrix to transform the data from xray space to motion capture space.</param.description>
+    <param.screenshot>C:\Users\uqglicht_local\AppData\Local\Temp\tp17ea5715_142a_495d_9131_e9f6f0c5266f.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>30091fd8-dfe8-4678-b28d-a8857f9727c0</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\xromm_visualisation.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetAnalogFrameNumber.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetAnalogs.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetFirstFrame.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetForcePlatforms.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetGroundReactionWrenches.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetLastFrame.m</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetMarkers.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetMetaData.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetPointFrameNumber.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetScalars.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkReadAcquisition.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim_BatchUQ\Functions\btk_loadc3d.m</file>
+      <file>${PROJECT_ROOT}\load_tra_file.m</file>
+      <file>${PROJECT_ROOT}\read_vrml_fast.m</file>
+      <file>${PROJECT_ROOT}\transformVertices_GL.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\uqglicht_local\Dropbox (UQ)\XROMM Data Drop" name="Matlab Functions" optional="false">C:\Users\uqglicht_local\Dropbox (UQ)\XROMM Data Drop\Matlab Functions</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
