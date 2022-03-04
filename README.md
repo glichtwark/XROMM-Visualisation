@@ -1,6 +1,8 @@
 # XROMM-Visualisation
 Matlab code and app for visualising data from XROMM system (https://www.xromm.org/), that has been processed using XMALab and Autoscoper. Optional visualisation of motion capture markers if co-registration transformation between x-ray and mocap systems is available. 
 
+Downloadable executable can be installed via MyAppInstaller_web.exe file in the 'xromm_visualisation_app' --> 'For distribution' folder.  
+
 ![alt text](https://github.com/glichtwark/XROMM-Visualisation/blob/main/application_screenshot.JPG)
 
 Installation:
