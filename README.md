@@ -1,6 +1,8 @@
 # XROMM-Visualisation
 Matlab code and app for visualising data from XROMM system (https://www.xromm.org/), that has been processed using XMALab and Autoscoper. Optional visualisation of motion capture markers if co-registration transformation between x-ray and mocap systems is available. 
 
+**Downloadable executable** can be installed via MyAppInstaller_web.exe file in the 'xromm_visualisation_app' --> 'For distribution' folder.  
+
 ![alt text](https://github.com/glichtwark/XROMM-Visualisation/blob/main/application_screenshot.JPG)
 
 Installation:
@@ -27,4 +29,3 @@ Kessler, S. E., Rainbow, M. J., Lichtwark, G. A., Cresswell, A. G., D'Andrea, S.
 
 Welte, L., Kelly, L. A., Kessler, S. E., Lieberman, D. E., D'Andrea, S. E., Lichtwark, G. A., & Rainbow, M. J. (2021). The extensibility of the plantar fascia influences the windlass mechanism during human running. Proceedings of the Royal Society B, 288(1943), 20202095.
 
-Also 
