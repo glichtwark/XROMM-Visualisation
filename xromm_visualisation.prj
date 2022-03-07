@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1216620445" file="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation.prj" location="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation" name="xromm_visualisation" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="832656676" file="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation.prj" location="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation" name="xromm_visualisation" target="target.mlapps" target-name="Package App">
     <param.appname>xromm_visualisation</param.appname>
     <param.authnamewatermark>Glen Lichtwark and Jayishni Maharaj</param.authnamewatermark>
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space.</param.summary>
     <param.description>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space. Can also load motion capture data and visualise this if there is a registration transformation matrix to transform the data from xray space to motion capture space.</param.description>
-    <param.screenshot>C:\Users\uqglicht_local\AppData\Local\Temp\tpfaea8198_0b9e_4162_ad8e_a42327e9460e.png</param.screenshot>
+    <param.screenshot>C:\Users\uqglicht_local\AppData\Local\Temp\tpb2902c8b_6768_4b1c_97ab_339aa2318d0f.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />

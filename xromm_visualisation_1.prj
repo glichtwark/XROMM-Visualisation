@@ -1,0 +1,160 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation_1.prj" location="C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation" name="xromm_visualisation_1" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>xromm_visualisation</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Glen Lichtwark and Jayishni Maharaj</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space.</param.summary>
+    <param.description>Application to load bone models and associated transformation matrix generated from XROMM analysis and visualise space. Can also load motion capture data and visualise this if there is a registration transformation matrix to transform the data from xray space to motion capture space.</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\xromm_visualisation\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\xromm_visualisation_app\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\xromm_visualisation_app\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\xromm_visualisation_app\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\xromm_visualisation_app</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\xromm_visualisation.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetAnalogFrameNumber.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetAnalogs.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetFirstFrame.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetForcePlatforms.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetGroundReactionWrenches.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetLastFrame.m</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetMarkers.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetMetaData.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetPointFrameNumber.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkGetScalars.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim\MatlabOpensimPipelineTools\BTK\share\btk-0.1\Wrapping\Matlab\btk\btkReadAcquisition.mexw64</file>
+      <file>C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\Opensim_BatchUQ\Functions\btk_loadc3d.m</file>
+      <file>${PROJECT_ROOT}\load_tra_file.m</file>
+      <file>${PROJECT_ROOT}\read_vrml_fast.m</file>
+      <file>${PROJECT_ROOT}\transformVertices_GL.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\xromm_visualisation_app\for_testing" name="xromm_visualisation.exe" optional="false">C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation_app\for_testing\xromm_visualisation.exe</file>
+      <file location="${PROJECT_ROOT}\xromm_visualisation_app\for_testing" name="readme.txt" optional="true">C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation_app\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\xromm_visualisation_app\for_testing" name="splash.png" optional="false">C:\Users\uqglicht_local\Dropbox (UQ)\MATLAB\XROMM Visualisation\xromm_visualisation_app\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
